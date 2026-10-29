@@ -1,0 +1,4 @@
+interface:
+  display_name: "안전한 AI 에이전트 Q&A"
+  short_description: "DLI 강의·실습 PDF와 원 자료로 개념과 실습 질문에 답하는 한국어 Q&A"
+  default_prompt: "$secure-ai-agent-qa를 사용해 질문에 답하고 장표 또는 실습 근거를 알려줘."

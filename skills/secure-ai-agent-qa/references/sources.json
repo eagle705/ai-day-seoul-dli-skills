@@ -1,0 +1,707 @@
+[
+  {
+    "id": "local-lab-guide",
+    "file": "outputs/Develop_Secure_AI_Agent_Lab_Guide_KO.md",
+    "sha256": "895c6b38b38cdecbc4f8f1caaf919662dbf71b790b5e363a51cb6f9b5f31b3f8",
+    "kind": "secondary-local-guide",
+    "live_lab_verified": false,
+    "warning": "이전 6-Notebook 보조 안내서. 현재 실습 절차는 DLI_codex PDF를 우선한다.",
+    "local_reference": "lab-guide-ko.md",
+    "packaged_sha256": "15d45253c634100b156343cab391315d344d74427ff8aa523167c8d77480752e",
+    "transformation": "기존 원문 앞에 현재 실습 PDF 우선 안내를 추가함"
+  },
+  {
+    "id": "live-lab-en",
+    "url": "http://52.201.250.178/lab/harness/security/home",
+    "checked_date": "2026-10-28",
+    "status": "authentication-required",
+    "content_ingested": false,
+    "supplement": "2026-10-29 한국어 내보내기 PDF는 별도로 확보. 이 URL의 실시간 본문 수집은 아님."
+  },
+  {
+    "id": "live-lab-ko",
+    "url": "http://52.201.250.178/lab/harness/security/ko/home",
+    "checked_date": "2026-10-28",
+    "status": "authentication-required",
+    "content_ingested": false,
+    "supplement": "2026-10-29 한국어 내보내기 PDF는 별도로 확보. 이 URL의 실시간 본문 수집은 아님."
+  },
+  {
+    "id": "seoul",
+    "file": "DLI_AI_Day_Seoul-Develop-Secure-AI-Agent.pptx",
+    "sha256": "7c5d831433d56484bfb5b3818bc5c829ff5c1b7b24b64f11f3bc3fd3b3a98487",
+    "slides": 143,
+    "slides_with_notes": 134,
+    "kind": "local-pptx",
+    "extracted_at": "2026-10-28T12:13:53.665515+00:00"
+  },
+  {
+    "id": "berlin",
+    "file": "DLI_GTC_Berlin-Develop-Secure-AI-Agent.pptx",
+    "sha256": "01b671e34658d690df33509d7001fa1c393d2a9818084326f9c37b1ed568b680",
+    "slides": 129,
+    "slides_with_notes": 120,
+    "kind": "local-pptx",
+    "extracted_at": "2026-10-28T12:13:53.685133+00:00"
+  },
+  {
+    "id": "owasp-about",
+    "kind": "official-web",
+    "title": "OWASP Foundation 소개",
+    "url": "https://owasp.org/about",
+    "checked_date": "2026-10-28",
+    "version": null,
+    "topics": [
+      "OWASP 정의",
+      "조직과 프로젝트 구분"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "재단 소개",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "owasp-llm-project",
+    "kind": "official-web",
+    "title": "OWASP Top 10 for LLM and GenAI",
+    "url": "https://genai.owasp.org/initiatives/top-10-for-llm-and-genai/",
+    "checked_date": "2026-10-28",
+    "version": "2026",
+    "topics": [
+      "LLM Top 10",
+      "버전"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "2026 리소스와 이전 작업반 목록이 함께 표시됨",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "owasp-llm-2026",
+    "kind": "official-web",
+    "title": "OWASP GenAI LLM Top 10 2026",
+    "url": "https://genai.owasp.org/download/56857/?tmstv=1785822482",
+    "checked_date": "2026-10-28",
+    "version": "2026",
+    "topics": [
+      "LLM01–LLM10",
+      "항목 번호"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "공식 PDF 목차와 분류 매핑; 전체 122페이지를 모두 검토한 것은 아님",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "owasp-agentic-2026",
+    "kind": "official-web",
+    "title": "OWASP Top 10 for Agentic Applications 2026",
+    "url": "https://genai.owasp.org/download/52117/?tmstv=1765059207",
+    "checked_date": "2026-10-28",
+    "version": "2026",
+    "topics": [
+      "ASI",
+      "위임",
+      "공유 메모리"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "공식 PDF 목차·개요·일부 정의; 전체 57페이지를 모두 검토한 것은 아님",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "owasp-prompt-injection",
+    "kind": "official-web",
+    "title": "LLM Prompt Injection Prevention Cheat Sheet",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+    "checked_date": "2026-10-28",
+    "version": null,
+    "topics": [
+      "인젝션",
+      "심층 방어",
+      "출력 검증",
+      "목표별 평가"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "방어와 Smoke-Testing 관련 절",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "openshell-best-practices",
+    "kind": "official-web",
+    "title": "OpenShell Security Best Practices",
+    "url": "https://docs.nvidia.com/openshell/latest/security/best-practices",
+    "checked_date": "2026-10-28",
+    "version": "Latest (v0.1.6) as displayed on retrieval",
+    "topics": [
+      "OpenShell",
+      "audit",
+      "enforce",
+      "정적 정책",
+      "동적 정책",
+      "placeholder"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "정책 변경·네트워크·L7 모드·provider 자격 증명 절. latest는 변경 가능하며 실습 설치 버전은 미확인",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "nvidia-agent-stack",
+    "kind": "official-web",
+    "title": "Where Security Fits in an AI Agent Stack",
+    "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/",
+    "checked_date": "2026-10-28",
+    "version": "published 2026-08-21",
+    "topics": [
+      "보안 경계",
+      "설계 원칙",
+      "위임"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "행동 통제와 인프라 통제·보안 경계 설계 원칙",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "mcp-security",
+    "kind": "official-web",
+    "title": "MCP Security Best Practices",
+    "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices",
+    "checked_date": "2026-10-28",
+    "version": "2026-07-28 documentation",
+    "topics": [
+      "MCP",
+      "token passthrough",
+      "confused deputy",
+      "SSRF"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "latest 링크가 이 버전으로 리다이렉트됨. 동의·토큰·SSRF 관련 절",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "oauth-bcp",
+    "kind": "official-web",
+    "title": "RFC 9700: Best Current Practice for OAuth 2.0 Security",
+    "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+    "checked_date": "2026-10-28",
+    "version": "RFC 9700, January 2025",
+    "topics": [
+      "OAuth",
+      "PKCE",
+      "최소 권한"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "2.1.1 public/confidential client PKCE 구분과 2.3 권한 제한",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "mitre-atlas",
+    "kind": "official-web",
+    "title": "MITRE ATLAS Fact Sheet",
+    "url": "https://atlas.mitre.org/pdf-files/MITRE_ATLAS_Fact_Sheet.pdf",
+    "checked_date": "2026-10-28",
+    "version": null,
+    "topics": [
+      "ATLAS",
+      "전술",
+      "기법"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "공식 소개 팩트시트. 최신 개별 기법 ID는 확인하지 않음",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "nist-rmf-core",
+    "kind": "official-web",
+    "title": "NIST AI RMF Core",
+    "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+    "checked_date": "2026-10-28",
+    "version": "AI RMF 1.0 (2023) excerpt",
+    "topics": [
+      "GOVERN",
+      "MAP",
+      "MEASURE",
+      "MANAGE"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "네 기능과 지속적 위험 관리 설명",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "nist-rmf-overview",
+    "kind": "official-web",
+    "title": "NIST AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "checked_date": "2026-10-28",
+    "version": "AI RMF 1.0 revision in progress as displayed",
+    "topics": [
+      "자발적 프레임워크",
+      "개정 상태"
+    ],
+    "status": "relevant-sections-reviewed",
+    "scope": "자발적 사용 목적과 개정 진행 표기",
+    "local_reference": "web-security.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "dli-codex-1",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/1.pdf",
+    "title": "Codex와 실습 환경",
+    "module": 1,
+    "pages": 7,
+    "language": "ko",
+    "sha256": "030383c620d38cf288371319f32089522f11bfcfcb7f448465028d661ccce3b1",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-2",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/2.pdf",
+    "title": "서브 에이전트와 팀",
+    "module": 2,
+    "pages": 5,
+    "language": "ko",
+    "sha256": "88002c721e30495c998d4e030a1d1913fbfa090880120cfa927312a13f647876",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-3",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/3.pdf",
+    "title": "인터페이스와 인젝션",
+    "module": 3,
+    "pages": 6,
+    "language": "ko",
+    "sha256": "7ea7ae495a00a2e85db0d79dae06c5e723e7463d8357fb253242b1a36fdd0ca0",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-4",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/4.pdf",
+    "title": "자격 증명과 의존성",
+    "module": 4,
+    "pages": 6,
+    "language": "ko",
+    "sha256": "78fd63ed87d791aadb249801380135a7b2d8078a9a98cb3d5ee0d96eeed4f6ac",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-5",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/5.pdf",
+    "title": "외부에서의 공격",
+    "module": 5,
+    "pages": 6,
+    "language": "ko",
+    "sha256": "79da9096bee7dd5a3f0abb4bd333ed50dba8d5ed8865e0b1417865a684cf8a48",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-6",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/6.pdf",
+    "title": "사용자로부터의 공격",
+    "module": 6,
+    "pages": 5,
+    "language": "ko",
+    "sha256": "4ea01ce93ae4ba3fc4b91dcfcb853a9051bd7a31a3188a4ce91afcb1928b894f",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-7",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/7.pdf",
+    "title": "내부에서의 공격",
+    "module": 7,
+    "pages": 5,
+    "language": "ko",
+    "sha256": "7ae04d04a729e90f92e3cb3363b04d723d72f0e49ad913fa8ac4c68b41316af5",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-8",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/8.pdf",
+    "title": "OpenShell 격리",
+    "module": 8,
+    "pages": 7,
+    "language": "ko",
+    "sha256": "f3b4eaab89674609e0afca767d3ccfb267c51fc2cc46130601d441bd163c64e0",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-9",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/9.pdf",
+    "title": "런타임 보호",
+    "module": 9,
+    "pages": 6,
+    "language": "ko",
+    "sha256": "9c9f24bf7f364e69e5d9a8c32e32fc88656f5a91b6a44ff2c7837d97c01d11c6",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-10",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/10.pdf",
+    "title": "심층 방어",
+    "module": 10,
+    "pages": 6,
+    "language": "ko",
+    "sha256": "495e8f3d74105fa3a38973942b1f51557faef40957fa12275d68de45462da3a9",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "dli-codex-0",
+    "kind": "local-lab-pdf",
+    "file": "DLI_codex/Securing Agents · NVIDIA DLI.pdf",
+    "title": "과정 개요와 더 읽을거리",
+    "module": 0,
+    "pages": 4,
+    "language": "ko",
+    "sha256": "e493fdfd4844a936630974069ebc1494590955e7f62e68bc2dc460525b72a9ad",
+    "snapshot_date": "2026-10-28",
+    "checked_date": "2026-10-29",
+    "status": "page-text-and-link-extraction",
+    "runtime_executed": false,
+    "local_reference": "corpus/labs-ko.jsonl",
+    "scope": "PDF 본문과 링크. 이미지 전용 내용은 OCR하지 않음. 실행 결과가 아닌 교재 사본."
+  },
+  {
+    "id": "react",
+    "kind": "primary-web",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629v3",
+    "checked_date": "2026-10-29",
+    "version": "v3 (2023-03-10)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 추론·행동 교차 방식; 전문·코드 재현은 하지 않음",
+    "modules": [
+      1
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "indirect-pi",
+    "kind": "primary-web",
+    "title": "Not what you have signed up for: Indirect Prompt Injection",
+    "url": "https://arxiv.org/abs/2302.12173v2",
+    "checked_date": "2026-10-29",
+    "version": "v2 (2023-05-05)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 외부 데이터의 지시와 애플리케이션 영향",
+    "modules": [
+      3,
+      5
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "confused-deputy",
+    "kind": "primary-web",
+    "title": "The Confused Deputy — Norm Hardy",
+    "url": "https://www.cs.umd.edu/~jkatz/security/downloads/capabilities.html",
+    "checked_date": "2026-10-29",
+    "version": "1988, university-hosted copy",
+    "status": "relevant-sections-reviewed",
+    "scope": "사례와 권한 출처 혼동 설명",
+    "modules": [
+      3,
+      4,
+      5
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "saltzer-schroeder",
+    "kind": "primary-web",
+    "title": "Basic Principles of Information Protection",
+    "url": "https://web.mit.edu/Saltzer/www/publications/protection/Basic.html",
+    "checked_date": "2026-10-29",
+    "version": "1975 paper, author-hosted excerpt",
+    "status": "relevant-sections-reviewed",
+    "scope": "정보 보호 원칙 중 최소 권한·기본 거부·완전한 중재",
+    "modules": [
+      8,
+      10
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "reflexion",
+    "kind": "primary-web",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2303.11366v4",
+    "checked_date": "2026-10-29",
+    "version": "v4 (2023-10-10)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 가중치 갱신 없는 언어 피드백·에피소드 메모리",
+    "modules": [
+      11
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "agentdojo",
+    "kind": "primary-web",
+    "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+    "url": "https://arxiv.org/abs/2406.13352v3",
+    "checked_date": "2026-10-29",
+    "version": "v3 (2024-11-24)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 신뢰 불가 툴 데이터와 작업·공격·방어 평가",
+    "modules": [
+      11
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "poisoned-rag",
+    "kind": "primary-web",
+    "title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+    "url": "https://arxiv.org/abs/2402.07867",
+    "checked_date": "2026-10-29",
+    "version": "page displays v3 (2024-08-13)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 검색 저장소 오염으로 목표 답변 유도",
+    "modules": [
+      5
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "tool-poisoning",
+    "kind": "primary-web",
+    "title": "MCP Security Notification: Tool Poisoning Attacks",
+    "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks",
+    "checked_date": "2026-10-29",
+    "version": "2025-04-01",
+    "status": "relevant-sections-reviewed",
+    "scope": "발견 연구자의 개념·공격 흐름 설명. 현재 모든 제품에 적용된다는 주장은 하지 않음",
+    "modules": [
+      5
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "github-toxic-flow",
+    "kind": "primary-web",
+    "title": "GitHub MCP Exploited: Accessing private repositories via MCP",
+    "url": "https://invariantlabs.ai/blog/mcp-github-vulnerability",
+    "checked_date": "2026-10-29",
+    "version": "2025-05-26",
+    "status": "relevant-sections-reviewed",
+    "scope": "연구자의 시연 환경과 public issue → private data → public PR 흐름",
+    "modules": [
+      5
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "lethal-trifecta",
+    "kind": "primary-web",
+    "title": "The lethal trifecta for AI agents",
+    "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+    "checked_date": "2026-10-29",
+    "version": "2025-06-16",
+    "status": "relevant-sections-reviewed",
+    "scope": "명칭 제안자의 세 조건·비결정적 동작 설명",
+    "modules": [
+      5
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "crescendo",
+    "kind": "primary-web",
+    "title": "Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack",
+    "url": "https://arxiv.org/abs/2404.01833",
+    "checked_date": "2026-10-29",
+    "version": "page displays v3 (2025-02-26)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 점진적 대화와 이전 응답 활용",
+    "modules": [
+      6
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "persuasive-jailbreak",
+    "kind": "primary-web",
+    "title": "How Johnny Can Persuade LLMs to Jailbreak Them",
+    "url": "https://arxiv.org/abs/2401.06373",
+    "checked_date": "2026-10-29",
+    "version": "page displays v2 (2024-01-23)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 설득 전략·모델별 실험 범위",
+    "modules": [
+      6
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "prompt-infection",
+    "kind": "primary-web",
+    "title": "Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems",
+    "url": "https://arxiv.org/abs/2410.07283",
+    "checked_date": "2026-10-29",
+    "version": "v1 (2024-10-09)",
+    "status": "relevant-sections-reviewed",
+    "scope": "논문 제목·초록. 에이전트 간 자기 복제와 전파",
+    "modules": [
+      7
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "pytorch-incident",
+    "kind": "primary-web",
+    "title": "Compromised PyTorch-nightly dependency chain",
+    "url": "https://pytorch.org/blog/compromised-nightly-dependency/",
+    "checked_date": "2026-10-29",
+    "version": "incident 2022-12-25 through 2022-12-30",
+    "status": "relevant-sections-reviewed",
+    "scope": "공식 공급망 사고 공지. 역사적 명령을 현재 환경에 적용하지 않음",
+    "modules": [
+      7
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "openshell-lab-release",
+    "kind": "primary-web",
+    "title": "OpenShell v0.1.2 release",
+    "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.2",
+    "checked_date": "2026-10-29",
+    "version": "v0.1.2",
+    "status": "relevant-sections-reviewed",
+    "scope": "공식 릴리스 존재 확인. PDF8이 실습 버전을 명시하며 실행 바이너리를 조회하지 않음",
+    "modules": [
+      8
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "openshell-prover-pinned",
+    "kind": "primary-web",
+    "title": "OpenShell Policy Prover — course-linked fixed commit",
+    "url": "https://github.com/NVIDIA/OpenShell/blob/6648bd0c290efbc41ba131ee9831ee45cd431f94/docs/how-it-works/policies/prover.mdx",
+    "checked_date": "2026-10-29",
+    "version": "commit 6648bd0c290efbc41ba131ee9831ee45cd431f94",
+    "status": "relevant-sections-reviewed",
+    "scope": "raw.githubusercontent.com의 동일 커밋 본문으로 모델 범위·boundary/risk check·CLI 역할 확인. v0.1.2 포함 여부는 미확인",
+    "modules": [
+      10
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "pi-benchmark-usenix",
+    "kind": "primary-web",
+    "title": "Formalizing and Benchmarking Prompt Injection Attacks and Defenses",
+    "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+    "checked_date": "2026-10-29",
+    "version": "USENIX Security 2024",
+    "status": "relevant-sections-reviewed",
+    "scope": "학회 공식 발표 소개·초록. 추가 관련 검색으로 발견, 실험을 실행하지 않음",
+    "modules": [
+      9,
+      10
+    ],
+    "local_reference": "further-reading.md",
+    "content_ingested": "curated-summary-only"
+  },
+  {
+    "id": "cisa-unavailable",
+    "kind": "web-access-attempt",
+    "url": "https://www.cisa.gov/news-events/alerts/2025/03/18/supply-chain-compromise-third-party-tj-actionschanged-files-cve-2025-30066-and-reviewdogaction",
+    "checked_date": "2026-10-29",
+    "status": "http-403-body-not-reviewed",
+    "content_ingested": false,
+    "scope": "PDF 인용 링크 접근 시도. 본문·현재 패치 상태를 검증하지 못함"
+  },
+  {
+    "id": "msrc-unavailable",
+    "kind": "web-access-attempt",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711",
+    "checked_date": "2026-10-29",
+    "status": "javascript-shell-only-body-not-reviewed",
+    "content_ingested": false,
+    "scope": "PDF 인용 링크 접근 시도. 본문·현재 패치 상태를 검증하지 못함"
+  }
+]

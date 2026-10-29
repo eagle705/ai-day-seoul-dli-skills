@@ -1,0 +1,636 @@
+[
+  {
+    "url": "https://arstechnica.com/information-technology/2023/02/ai-powered-bing-chat-spills-its-secrets-via-prompt-injection-attack/",
+    "cited_at": [
+      {
+        "module": 6,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.03629v3",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "react"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.12173v2",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "indirect-pi"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.11366v4",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "reflexion"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2401.06373",
+    "cited_at": [
+      {
+        "module": 6,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "persuasive-jailbreak"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.07867",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "poisoned-rag"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.01833",
+    "cited_at": [
+      {
+        "module": 6,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "crescendo"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2406.13352v3",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "agentdojo"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.07283",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "prompt-infection"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0010",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0011.002",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0020",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0051.000",
+    "cited_at": [
+      {
+        "module": 6,
+        "page": 2
+      },
+      {
+        "module": 6,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0051.001",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0053",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0054",
+    "cited_at": [
+      {
+        "module": 6,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0056",
+    "cited_at": [
+      {
+        "module": 6,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0061",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0070",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0080.000",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://atlas.mitre.org/techniques/AML.T0086",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://attack.mitre.org/techniques/T1552/",
+    "cited_at": [
+      {
+        "module": 4,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://embracethered.com/blog/posts/2024/chatgpt-macos-app-persistent-data-exfiltration/",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llm-top-10/",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "cited_at": [
+      {
+        "module": 3,
+        "page": 3
+      },
+      {
+        "module": 5,
+        "page": 2
+      },
+      {
+        "module": 5,
+        "page": 3
+      },
+      {
+        "module": 6,
+        "page": 2
+      },
+      {
+        "module": 6,
+        "page": 3
+      },
+      {
+        "module": 7,
+        "page": 3
+      },
+      {
+        "module": 9,
+        "page": 5
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llmrisk/llm032025-supply-chain/",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 3
+      },
+      {
+        "module": 7,
+        "page": 2
+      },
+      {
+        "module": 7,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 1
+      },
+      {
+        "module": 7,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/",
+    "cited_at": [
+      {
+        "module": 6,
+        "page": 3
+      },
+      {
+        "module": 6,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://github.com/NVIDIA/OpenShell/blob/6648bd0c290efbc41ba131ee9831ee45cd431f94/docs/how-it-works/policies/prover.mdx",
+    "cited_at": [
+      {
+        "module": 10,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "openshell-prover-pinned"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.2",
+    "cited_at": [
+      {
+        "module": 8,
+        "page": 1
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "openshell-lab-release"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://github.com/getpaseo/paseo",
+    "cited_at": [
+      {
+        "module": 1,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://invariantlabs.ai/blog/mcp-github-vulnerability",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "github-toxic-flow"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "tool-poisoning"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "msrc-unavailable"
+    ],
+    "review_status": "javascript-shell-only-body-not-reviewed"
+  },
+  {
+    "url": "https://pytorch.org/blog/compromised-nightly-dependency/",
+    "cited_at": [
+      {
+        "module": 7,
+        "page": 3
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "pytorch-incident"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+    "cited_at": [
+      {
+        "module": 5,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "lethal-trifecta"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://top10.owasp.org/2021/A01_2021-Broken_Access_Control/",
+    "cited_at": [
+      {
+        "module": 3,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [],
+    "review_status": "not-reviewed"
+  },
+  {
+    "url": "https://web.mit.edu/Saltzer/www/publications/protection/Basic.html",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "saltzer-schroeder"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://www.cisa.gov/news-events/alerts/2025/03/18/supply-chain-compromise-third-party-tj-actionschanged-files-cve-2025-30066-and-reviewdogaction",
+    "cited_at": [
+      {
+        "module": 4,
+        "page": 2
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "cisa-unavailable"
+    ],
+    "review_status": "http-403-body-not-reviewed"
+  },
+  {
+    "url": "https://www.cs.umd.edu/~jkatz/security/downloads/capabilities.html",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "confused-deputy"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  },
+  {
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "cited_at": [
+      {
+        "module": 0,
+        "page": 4
+      }
+    ],
+    "status": "link-extracted-not-necessarily-reviewed",
+    "source_records": [
+      "nist-rmf-overview"
+    ],
+    "review_status": "relevant-sections-reviewed"
+  }
+]
